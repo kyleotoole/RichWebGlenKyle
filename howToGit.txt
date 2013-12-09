@@ -1,0 +1,8 @@
+mkdir testproject
+cd testproject
+git init
+touch a_text_file.txt
+git add .
+git commit -a -m "Initial import"
+git remote add origin gitosis@yourserver.com:testproject.git
+git push origin master
